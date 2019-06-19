@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.kartica {
+  display: inline-grid;
+  grid-template-columns: repeat(60, 10px);
+  grid-template-rows: repeat(60, 10px);
+}
+
+.malakocka {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: black;
+  pointer-events: none;
+}
+
+.manja {
+  position: relative;
+  transform: scaleY(0.94) scaleX(0.94);
+}
